@@ -1,12 +1,10 @@
 using Azure.Identity;
 using Microsoft.ApplicationInsights.Extensibility;
-using Sderilog;
+using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
-using System.Reflection.Metadata;
 using WorkshopDemo.Core.Common;
 using WorkshopDemo.HealthChecks;
-ModuleReference bad code adfai 
 
 var builder = WebApplication.CreateBuilder(args);
 
